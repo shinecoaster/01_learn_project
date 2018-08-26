@@ -16,7 +16,10 @@
 import subprocess
 import time
 
-for i in range(10,0,-1):
+print('print seconds you need\n')
+s = input()
+
+for i in range(int(s), 0, -1):
     print(i)
     time.sleep(1)
 
